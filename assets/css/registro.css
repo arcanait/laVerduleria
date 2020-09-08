@@ -2,7 +2,9 @@ main{
     height: 700px;
 }
 .contenedor-registro{
-    margin-top: 10%!important;
+    background-color: #F5F3E0;
+    margin-top: 5%!important;
     padding: 30px!important;
-    width: 500px!important;
+    padding-top: 15px!important;
+    width: 700px!important;
 }
