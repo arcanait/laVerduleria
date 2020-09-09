@@ -23,6 +23,17 @@
 }
 
 .boton {
-    color: var(--color-secundario) !important;
-    border: solid 2px var(--color-secundario) !important;
+    color: var(--color-secundario);
+    border: solid 2px var(--color-secundario);
+    padding: 0.4em;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+
+}
+
+.boton:hover {
+    color: #f8f9fa;
+    border: solid 2px #f8f9fa;
+    background-color: var(--color-secundario);
+    transform: scale(1.2, 1.2);
 }
