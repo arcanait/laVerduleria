@@ -22,18 +22,11 @@
     background-color: var(--color--pbase) !important;
 }
 
-.boton {
-    color: var(--color-secundario);
-    border: solid 2px var(--color-secundario);
-    padding: 0.4em;
-    background-color: #f8f9fa;
-    border-radius: 10px;
-
+.t-color {
+    color: white !important;
 }
 
-.boton:hover {
-    color: #f8f9fa;
-    border: solid 2px #f8f9fa;
-    background-color: var(--color-secundario);
-    transform: scale(1.2, 1.2);
+.t-color:hover {
+    color: #16181b !important;
+
 }
