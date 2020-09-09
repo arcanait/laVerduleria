@@ -1,0 +1,56 @@
+body,
+h1 {
+    font-family: 'Lato', sans-serif;
+}
+p{
+    font-size: 20px;
+}
+.inicio {
+    background-color: #f0edd1;
+    box-shadow: 50px 50px 50px 50px #ffffff;
+}
+.imagen {
+    border-radius: 15px;
+    border: 2px solid #009ff5;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0,0.50);
+}
+h1>a {
+    color: #000000;
+    text-decoration: #000000;
+}
+h1>a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+.c-imagen{
+    position: relative;
+}
+.c-imagen  img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.capa{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,118,192,0.781);
+    width: 100%;
+    height: 0;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 1s;
+}
+.capa > h3{
+    color: #ffffff;
+    position: absolute;
+    font-size: 30px;
+    top:50%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.c-imagen:hover .capa{
+    height: 100%;
+}
