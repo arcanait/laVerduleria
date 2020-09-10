@@ -6,9 +6,15 @@
     color: #F58A07!important;
     box-shadow: 0 2px #f58a0798;
 }
+.boton-login a{
+    color: #F58A07
+}
+.boton-login a:hover{
+    text-decoration: none;
+    color: #ffffff!important;
+}
 .boton-login:hover{
     background-color: #F58A07!important; 
-    color: #ffffff!important;
 }
 .boton-login:active {
     transform: translateY(3px);
