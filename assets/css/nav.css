@@ -30,3 +30,17 @@
     color: #16181b !important;
 
 }
+
+.footer {
+    height: 100px;
+}
+
+.icon {
+    color: var(--color-secundario);
+    font-size: 1.8em;
+    padding: 0px;
+}
+
+.icon:hover {
+    transform: scale(1.2, 1.2);
+}
