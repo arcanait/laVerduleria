@@ -1,0 +1,47 @@
+:root {
+    --color-primario: #4CBE23;
+    --color-secundario: #f58a07;
+    --color--pbase: #9de682;
+    --color-background: linear-gradient( rgba(76,190,35,1) 0%, rgba(82,204,39,1) 50%, rgba(255,255,255,1) 100%);
+}
+.custom-card{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.head-table{
+    background-color: var(--color-primario);
+    /* background-color: #F58A07; */
+    color: #ffffff;
+}
+.name-user{
+    color: rgb(168, 167, 167);
+    border-left: 1px solid rgb(197, 195, 195);
+    padding: 15px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+.photo-user{
+    border: 1px solid rgb(168, 167, 167);
+    padding: 20px;
+}
+.fa-pen, .fa-trash-alt{
+    padding: 10px;
+    border-radius: 50px;
+}
+.fa-pen:hover, .fa-trash-alt:hover{
+    cursor: pointer;
+    background-color: rgb(190, 190, 190);
+}
+.sell-text{
+    font: 800;
+    font-size: 30px;
+    color: rgb(161, 155, 155);
+    text-align: center;
+}
+.encabezado-card{
+    background-color: var(--color-secundario)!important;
+    color: #ffffff;
+}
+
+
