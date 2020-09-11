@@ -4,16 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/registro.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/loginModal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     
     <title>REGISTRO VENDEDOR</title>
 </head>
 <body>
-    <header>
-        <nav>
 
+    <header>
+        
+        <nav class="menu navbar navbar-expand-lg navbar-dark ">
+    
+            <a class="navbar-brand ml-3" href="#"><img class="w-sm-75" src="../img/LogoB.png" alt=""></a>
+            <div class="mov">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown "
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <i class="fas fa-shopping-basket canasta mx-3"></i>
+    
+            </div>
+    
+            <div class="collapse navbar-collapse justify-content-end  mr-4" id="navbarNavDropdown">
+                <ul class="navbar-nav ">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../../index.html"> Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Productos
+                        </a>
+                        <div class=" menud dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item t-color" href="#">Verduras</a>
+                            <a class="dropdown-item t-color" href="#">Frutas</a>
+                            <a class="dropdown-item t-color" href="#">hierbas</a>
+                        </div>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contactanos</a>
+                    </li>
+    
+                </ul>
+    
+            </div>
+    
         </nav>
     </header>
+
     <main>
         <div class="container border border-secondary contenedor-registro shadow">
             <div class="col-sm-12 col-md-12 col-lg-12 mb-4 pb-2 text-center ">
@@ -110,7 +152,7 @@
                                 </label>
                             </div>
                             <div class="col-sm-12 col-md-12 col-lg-12 mb-1 text-center">
-                                <button type="button" class="btn btn-secondary">Registrarse</button>
+                                <button type="button" class="btn btn-secondary" ><a href="../../index.html">Registrarse</a></button>
                             </div>
                         </div>
                     </form>
