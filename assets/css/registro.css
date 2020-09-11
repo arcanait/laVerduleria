@@ -1,3 +1,8 @@
+:root {
+    --color-primario: #4CBE23;
+    --color-secundario: #f58a07;
+    --color--pbase: #9de682;
+}
 main{
     height: 700px;
 }
@@ -7,4 +12,19 @@ main{
     padding: 30px!important;
     padding-top: 15px!important;
     width: 700px!important;
+}
+.encabezado-card{
+    background-color: var(--color-secundario)!important;
+    color: #ffffff;
+}
+.boton-registrarse{
+    background-color: var(--color-secundario)!important;
+}
+.boton-registrarse a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.boton-registrarse a:hover{
+    color: #ffffff;
+    text-decoration: none;
 }

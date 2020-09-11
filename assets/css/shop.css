@@ -16,10 +16,12 @@ body{
     opacity: 1.0;
 }
 .fas{
-    color:#F58A07 !important;
-    
+    color:#F58A07 !important; 
 }
 hr{
     width: 80%;
     border: 1px solid #F58A07 !important; 
+}
+.icono-carrito:hover{
+    color: #ffffff!important;
 }

@@ -2,13 +2,13 @@
     width: 35px;
     height: 35px;
 }
-
 .card-img {
     height: 160px;
-
     object-fit: cover;
 }
-
 .ColorP {
     background-color: var(--color-primario) !important;
+}
+.cant2{
+    color: #343a40!important;
 }
